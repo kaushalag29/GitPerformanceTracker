@@ -215,4 +215,11 @@ marimo/_lsp/
 __marimo__/
 
 # Streamlit
+.streamlit/
 .streamlit/secrets.toml
+
+# macOS
+.DS_Store
+
+# Virtual environment
+gitpt/
