@@ -4,6 +4,10 @@
 >
 > A comprehensive analysis system that identifies the most impactful engineers at PostHog using a multi-dimensional scoring model that evaluates PR complexity, code quality, reviews, collaboration, and shipping velocity.
 
+## 🚀 Live Demo
+
+**[View the live dashboard](https://posthog.streamlit.app/)** — Click any engineer name to see detailed breakdown of their impact.
+
 ---
 
 ## Problem Statement
@@ -821,6 +825,10 @@ Built for PostHog. Uses GitHub API, OpenRouter LLM, Streamlit, Pandas, Plotly.
 ---
 
 ## Quick Start for Production
+
+**Want to see it in action?** → **[View live demo](https://posthog.streamlit.app/)**
+
+To deploy your own:
 
 1. **Collect data**: `python scripts/1_collect_data.py` (~1-2 min)
 2. **Analyze PRs**: `python scripts/2_analyze_complexity.py` (7 days with quota, can pause/resume)
